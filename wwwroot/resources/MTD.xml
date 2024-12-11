@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mtd>
+	<!-- Meta Data Information -->
+	<application>
+		<name>Your Blazor App</name>
+		<version>1.0.0</version>
+		<description>Your Blazor WebAssembly application description</description>
+		<author>Your Name or Company</author>
+		<license>MIT</license>
+	</application>
+
+	<!-- Additional Resource Data -->
+	<resources>
+		<resource>
+			<name>config.xml</name>
+			<type>Configuration</type>
+			<path>wwwroot/resources/config.xml</path>
+		</resource>
+		<!-- Add other resources as necessary -->
+	</resources>
+
+	<!-- Configuration Information -->
+	<settings>
+		<setting>
+			<key>apiBaseUrl</key>
+			<value>https://your-api-url.com</value>
+		</setting>
+		<setting>
+			<key>maxRequestTimeout</key>
+			<value>30</value>
+		</setting>
+	</settings>
+</mtd>
